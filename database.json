@@ -1,7 +1,7 @@
 {
   "users": {
     "6287858946160@s.whatsapp.net": {
-      "exp": 933,
+      "exp": 1060,
       "limit": 999,
       "joinlimit": 1,
       "spammer": 0,
@@ -25,7 +25,7 @@
       "warn": 0,
       "pc": 0,
       "expg": 0,
-      "level": 0,
+      "level": 1,
       "role": "Beginner",
       "autolevelup": true,
       "potion": 10,
@@ -1141,7 +1141,7 @@
       "catexp": 0
     },
     "6287701656619@s.whatsapp.net": {
-      "exp": 539,
+      "exp": 546,
       "limit": 999,
       "joinlimit": 1,
       "spammer": 0,
@@ -6516,10 +6516,10 @@
       "lastSuccess": 1660991550969
     },
     "menu.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1660992475574,
-      "lastSuccess": 1660992475574
+      "total": 21,
+      "success": 21,
+      "last": 1660994076228,
+      "lastSuccess": 1660994076228
     },
     "health.js": {
       "total": 23,
@@ -6630,9 +6630,9 @@
       "lastSuccess": 1660991108523
     },
     "save.js": {
-      "total": 10,
+      "total": 11,
       "success": 10,
-      "last": 1660989919811,
+      "last": 1660994228066,
       "lastSuccess": 1660989919811
     },
     "sewabot.js": {
@@ -6720,10 +6720,10 @@
       "lastSuccess": 1660987538508
     },
     "getplugin.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1660987851123,
-      "lastSuccess": 1660987851123
+      "total": 3,
+      "success": 3,
+      "last": 1660994206175,
+      "lastSuccess": 1660994206175
     },
     "nebang.js": {
       "total": 2,
@@ -6786,16 +6786,28 @@
       "lastSuccess": 1660992223656
     },
     "listprem.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1660992176449,
-      "lastSuccess": 1660992176449
+      "total": 3,
+      "success": 3,
+      "last": 1660994232872,
+      "lastSuccess": 1660994232872
     },
     "exec2.js": {
       "total": 2,
       "success": 2,
       "last": 1660992425781,
       "lastSuccess": 1660992425781
+    },
+    "allprofile.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1660994199983,
+      "lastSuccess": 1660994199983
+    },
+    "totalfitur.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1660994210980,
+      "lastSuccess": 1660994210980
     }
   },
   "msgs": {},
