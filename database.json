@@ -1,7 +1,7 @@
 {
   "users": {
     "6287858946160@s.whatsapp.net": {
-      "exp": 931,
+      "exp": 933,
       "limit": 999,
       "joinlimit": 1,
       "spammer": 0,
@@ -21,7 +21,7 @@
       "afkReason": "",
       "pasangan": "",
       "banned": false,
-      "premium": false,
+      "premium": true,
       "warn": 0,
       "pc": 0,
       "expg": 0,
@@ -222,14 +222,14 @@
       "lastbisnis": 0,
       "lastnebang": 0,
       "lastberkebon": 0,
-      "premiumDate": 0,
+      "premiumDate": 10300905766777,
       "bannedDate": 0,
       "petFood": 0,
       "lumba": 0,
       "catexp": 0
     },
     "6282120247620@s.whatsapp.net": {
-      "exp": 935,
+      "exp": 985,
       "limit": 998,
       "joinlimit": 1,
       "spammer": 0,
@@ -1141,8 +1141,8 @@
       "catexp": 0
     },
     "6287701656619@s.whatsapp.net": {
-      "exp": 441,
-      "limit": 1000,
+      "exp": 539,
+      "limit": 999,
       "joinlimit": 1,
       "spammer": 0,
       "limitspam": 0,
@@ -4764,7 +4764,7 @@
       "lastberkebon": 0
     },
     "6283815194861@s.whatsapp.net": {
-      "exp": 53,
+      "exp": 127,
       "limit": 1000,
       "joinlimit": 1,
       "spammer": 0,
@@ -6122,7 +6122,7 @@
       "lastberkebon": 0
     },
     "6289630429810@s.whatsapp.net": {
-      "exp": 105,
+      "exp": 199,
       "limit": 1000,
       "joinlimit": 1,
       "spammer": 0,
@@ -6492,10 +6492,10 @@
       "lastSuccess": 1660991239877
     },
     "dogeon.js": {
-      "total": 105,
-      "success": 105,
-      "last": 1660991539785,
-      "lastSuccess": 1660991539785
+      "total": 106,
+      "success": 106,
+      "last": 1660992044993,
+      "lastSuccess": 1660992044993
     },
     "shop.js": {
       "total": 12,
@@ -6516,10 +6516,10 @@
       "lastSuccess": 1660991550969
     },
     "menu.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1660990317585,
-      "lastSuccess": 1660990317585
+      "total": 20,
+      "success": 20,
+      "last": 1660992475574,
+      "lastSuccess": 1660992475574
     },
     "health.js": {
       "total": 23,
@@ -6582,10 +6582,10 @@
       "lastSuccess": 1660990261441
     },
     "hunter.js": {
-      "total": 19,
-      "success": 19,
-      "last": 1660990380217,
-      "lastSuccess": 1660990380217
+      "total": 20,
+      "success": 20,
+      "last": 1660992486090,
+      "lastSuccess": 1660992486090
     },
     "adventure.js": {
       "total": 18,
@@ -6594,16 +6594,16 @@
       "lastSuccess": 1660990415878
     },
     "fighting.js": {
-      "total": 24,
-      "success": 24,
-      "last": 1660991287061,
-      "lastSuccess": 1660991287061
-    },
-    "tebakgame.js": {
       "total": 25,
       "success": 25,
-      "last": 1660991303601,
-      "lastSuccess": 1660991303601
+      "last": 1660992228863,
+      "lastSuccess": 1660992228863
+    },
+    "tebakgame.js": {
+      "total": 27,
+      "success": 27,
+      "last": 1660992131260,
+      "lastSuccess": 1660992131260
     },
     "nambang.js": {
       "total": 10,
@@ -6648,10 +6648,10 @@
       "lastSuccess": 1660984517568
     },
     "tebakgame_hint.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1660990157670,
-      "lastSuccess": 1660990157670
+      "total": 8,
+      "success": 8,
+      "last": 1660992081357,
+      "lastSuccess": 1660992081357
     },
     "feed.js": {
       "total": 3,
@@ -6702,16 +6702,16 @@
       "lastSuccess": 1660985838701
     },
     "tebakbendera.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1660987159071,
-      "lastSuccess": 1660987159071
+      "total": 6,
+      "success": 6,
+      "last": 1660992246896,
+      "lastSuccess": 1660992246896
     },
     "tebakbendera_hint.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1660987207561,
-      "lastSuccess": 1660987207561
+      "total": 4,
+      "success": 4,
+      "last": 1660992177194,
+      "lastSuccess": 1660992177194
     },
     "exec.js.js": {
       "total": 3,
@@ -6766,6 +6766,36 @@
       "success": 2,
       "last": 1660991487012,
       "lastSuccess": 1660991487012
+    },
+    "addprem.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1660992166778,
+      "lastSuccess": 1660992166778
+    },
+    "tekateki.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1660992184605,
+      "lastSuccess": 1660992184605
+    },
+    "tekateki_hint.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1660992223656,
+      "lastSuccess": 1660992223656
+    },
+    "listprem.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1660992176449,
+      "lastSuccess": 1660992176449
+    },
+    "exec2.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1660992425781,
+      "lastSuccess": 1660992425781
     }
   },
   "msgs": {},
