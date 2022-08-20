@@ -8,5 +8,4 @@ conn.reply(m.chat, `Total Fitur saat ini: ${totalf}`,m)
 handler.help = ['totalfitur']
 handler.tags = ['tools']
 handler.command = ['totalfitur']
-handler.limit = true
 module.exports = handler
