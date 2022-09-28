@@ -34,17 +34,15 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@bochilteam/scraper@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@bochilteam/scraper/-/scraper-3.0.0.tgz#6f12064e5e248d3b96aeec883e5dc22cb294ad6b"
-  integrity sha512-vqV7KkV+zyjFpSYplwRz0NIFt/pxUAF/zDnUogr280ZnWK9nQqt+mfV8J3TLUjUbV6HxSrsbltUAM6n1ff94Sg==
+"@bochilteam/scraper@0.0.81":
+  version "0.0.81"
+  resolved "https://registry.yarnpkg.com/@bochilteam/scraper/-/scraper-0.0.81.tgz#ddfaa02d50d1887c575419cafba54af9f18250ff"
+  integrity sha512-n87phI6bCYVtbsyXd3OJbL9RutvEJksY5DCp/S6elp0Gm+jj3LJ42LJ6vSCn+WmpaagB0A0WdeNR0Rocosf7gA==
   dependencies:
     cheerio "^1.0.0-rc.10"
     form-data "^4.0.0"
     got "^11.8.3"
     human-readable "^0.2.1"
-    similarity "^1.2.1"
-    zod "^3.17.3"
   optionalDependencies:
     ws "^8.4.2"
 
@@ -1410,15 +1408,6 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha512-qeFIXtP4MSoi6NLqO12WfqARWWuCKi2Rn/9hJLEmtB5yTNr9DqFWkJRCf2qShWzPeAMRnOgCrq0sg/KLv5ES9w==
   dependencies:
     tweetnacl "^0.14.3"
-
-beta-api@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/beta-api/-/beta-api-1.0.0.tgz#72f47c9394cdcb93df412ee4487f0364401e6a31"
-  integrity sha512-8BeiW/UKdn8AeGNRbf+EIxB6IGOEKrm27ycrxn7Ege37HAqgP0Spth0qQGaXf9lPUu7hahNoe5u1qTt7O4SLQg==
-  dependencies:
-    axios "^0.21.1"
-    cheerio "^1.0.0-rc.10"
-    qs "^6.10.1"
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -4872,10 +4861,17 @@ module@^1.0.0:
     vinyl-fs "2.4.3"
     yargs "4.6.0"
 
-moment-timezone@^0.5.33, moment-timezone@^0.5.34:
+moment-timezone@^0.5.33:
   version "0.5.34"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.34.tgz#a75938f7476b88f155d3504a9343f7519d9a405c"
   integrity sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==
+  dependencies:
+    moment ">= 2.9.0"
+
+moment-timezone@^0.5.35:
+  version "0.5.37"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
+  integrity sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg==
   dependencies:
     moment ">= 2.9.0"
 
@@ -5022,10 +5018,10 @@ netmask@^2.0.2:
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-2.0.2.tgz#8b01a07644065d536383835823bc52004ebac5e7"
   integrity sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==
 
-new-scrape@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/new-scrape/-/new-scrape-2.1.0.tgz#611f7ed246ed383510cd1ee57cee85abfba32d8d"
-  integrity sha512-gbxWA2J4ecq5qlBZq832T7uWqSPFCriSXrP5hhrHAIMvCoTTVQ4bOnBhnTs9f8fEmFfqXk/Bc859ftxQkz4fiQ==
+new-scrape@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/new-scrape/-/new-scrape-1.0.0.tgz#9749844018b10f90a7f51fc9aff8ee3938cc6fc7"
+  integrity sha512-tmM0DP7bIQGaKpM8Jxg9pzhLCSV3zGRHNl1q+C+fflGO4AyXnbwGW0aQcx6PZSNTVmiFwToBaKHTS/84lCQtFw==
   dependencies:
     "@types/node" "^18.0.6"
     axios "^0.27.2"
@@ -5968,7 +5964,7 @@ qs@6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.10.1, qs@^6.10.2, qs@^6.10.3, qs@^6.11.0:
+qs@^6.10.1, qs@^6.10.3, qs@^6.11.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
@@ -6262,16 +6258,6 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
-
-resapi-akuari@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/resapi-akuari/-/resapi-akuari-1.0.2.tgz#e75f5106cf1e36ee30958ab566c25754191810a4"
-  integrity sha512-SxkWvbCOXK0Wah8qyC7lmb96XVfBIplzv7wT5eWw1NmFrIcaMgADrygWXwXnmOU2UzgQEcaflbRTpEhu2a6MQQ==
-  dependencies:
-    axios "^0.21.1"
-    cheerio "^1.0.0-rc.10"
-    qs "^6.10.2"
-    request "^2.88.2"
 
 resolve-alpn@^1.0.0:
   version "1.2.1"
@@ -7336,9 +7322,9 @@ vizion@~2.2.1:
     js-git "^0.7.8"
 
 vm2@^3.9.8:
-  version "3.9.10"
-  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.10.tgz#c66543096b5c44c8861a6465805c23c7cc996a44"
-  integrity sha512-AuECTSvwu2OHLAZYhG716YzwodKCIJxB6u1zG7PgSQwIgAlEaoXH52bxdcvT8GkGjnYK7r7yWDW0m0sOsPuBjQ==
+  version "3.9.11"
+  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.11.tgz#a880f510a606481719ec3f9803b940c5805a06fe"
+  integrity sha512-PFG8iJRSjvvBdisowQ7iVF580DXb1uCIiGaXgm7tynMR1uTBlv7UJlB1zdv5KJ+Tmq1f0Upnj3fayoEOPpCBKg==
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
@@ -7768,11 +7754,6 @@ zip-stream@^2.1.2:
     archiver-utils "^2.1.0"
     compress-commons "^2.1.1"
     readable-stream "^3.4.0"
-
-zod@^3.17.3:
-  version "3.18.0"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.18.0.tgz#2eed58b3cafb8d9a67aa2fee69279702f584f3bc"
-  integrity sha512-gwTm8RfUCe8l9rDwN5r2A17DkAa8Ez4Yl4yXqc5VqeGaXaJahzYYXbTwvhroZi0SNBqTwh/bKm2N0mpCzuw4bA==
 
 zs-extract@^1.4.1:
   version "1.4.1"
